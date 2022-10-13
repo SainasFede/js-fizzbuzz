@@ -9,34 +9,37 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #DDDDDD;
 }
 .container{
 display: flex;
 flex-wrap: wrap;
-width: 700px;
+width: 900px;
 justify-content: center;
 align-items: center;
 }
 
 .box{
-  width: 60px;
-  height: 60px;
-  background-color: brown;
+  width: 80px;
+  height: 80px;
+  background-color: #BC243C;
   margin: 5px;
   color: antiquewhite;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 .yellow{
-  background-color: rgb(51, 77, 52);
+  background-color: rgba(8,59,76,255);
 }
 
 .blue{
-  background-color: cornflowerblue;
+  background-color: #009B77;
 }
 
 .green{
-  background-color: forestgreen;
+  background-color: #39CCCC;
+  color: #001f3f;
 }
