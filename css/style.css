@@ -20,15 +20,17 @@ align-items: center;
 }
 
 .box{
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background-color: #BC243C;
-  margin: 5px;
+  margin: 10px;
   color: antiquewhite;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  border-radius: 15px;
+  box-shadow:5px 10px rgba(19, 13, 13, 0.123);
 }
 
 .yellow{
